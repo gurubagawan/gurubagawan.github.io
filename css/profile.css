@@ -1,0 +1,70 @@
+.profile-photo {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.about-body {
+	margin-top: 3%;
+}
+
+.profile-header {
+	font-family: "Roboto", sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: #18121e;
+	display: inline-block;
+	margin-left: 10%;
+	vertical-align: middle;
+	width: 70%;
+	font-weight: bold;
+}
+
+.me-text {
+	display: inline-block;
+}
+
+.me-text p {
+	font-weight: 500;
+	font-size: 16px;
+	color: #18121e;
+}
+
+.me-text h3 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.about-me {
+	margin-top: 2%;
+	width: 50%;
+	margin-left: 25%;
+}
+
+.back-icon {
+	font-size: 50px !important;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.about-icons {
+	margin-top: 40px !important;
+	margin: auto;
+	width: 100px;
+}
+
+.nav-linkedin {
+	font-size: 35px;
+	margin-right: 10px;
+}
+
+.nav-email {
+	font-size: 38px;
+}
+
+.hover-icons {
+	color: #233237;
+}
+.hover-icons:hover {
+	color: #984b43;
+}
