@@ -2,11 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TITLE</title>
+  <title>Projects</title>
   <meta name="description" content="DESCRIPTION">
 
   <!-- CSS Styles -->
-  <link rel="stylesheet" href="PATH">
+  <link rel="stylesheet" href="./css/projects.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
 
   <!-- JS Scripts -->
@@ -16,15 +21,148 @@
 
 </head>
 
+<!--
+Empty template div
+<div class="project-item">
+    <div class="project-head">
+      <h3 class="project-title" style="display:inline-block;" >
+        Title
+      </h3>
+      <a href="https://github.com/gurubagawan/BrainStation-Final-Project-">
+        <i class="fab fa-github hover-icons material-icons project-icon" ></i>
+      </a>
+      <hr class="hr-project" ></hr>
+    </div>
+    <div>
+      <p class="project-description">
+        Description
+        <br >
+      </p>
+      <h4> Learning Points </h4>
+      <p>
+        Learning
+        </p>
+      <div class="frameworks">
+        <h4> Framworks Used </h4>
+        <b>
+          framworks list
+        </b>
+      </div>
+    </div>
+  </div> -->
+
+
 <body>
   <div>
-  <div className="project-container ">
-    <a className="alwaysshowme" href="./index.html">
-      <i className="material-icons hover-icons back-icon">arrow_back</i>
+  <div class="project-container ">
+    <a class="alwaysshowme" href="./index.html">
+      <i class="material-icons hover-icons back-icon">arrow_back</i>
     </a>
-    <div className="projects-header"> Here's how I keep myself busy!</div>
+    <div class="projects-header"> Here's how I keep myself busy!</div>
   </div>
-  {Projects()}
+  <div class="project-item">
+      <div class="project-head">
+        <h3 class="project-title" style="display:inline-block;" >
+          Marvel Superhero Showdown
+        </h3>
+        <a href="https://github.com/gurubagawan/Superhero-Showdown">
+          <i class="fab fa-github hover-icons material-icons project-icon" ></i>
+        </a>
+        <hr class="hr-project" ></hr>
+      </div>
+      <div>
+        <p class="project-description">
+          Have you ever had trouble ranking your favourite Marvel heroes? Then this is the app for you!
+          Simply go through rounds of picking between two heroes, until the system is able to provide you with your own hero ranking.
+          Currently a work in progress.
+          <br >
+        </p>
+        </div>
+      </div>
+    </div>
+  <div class="project-item">
+			<div class="project-head">
+				<h3 class="project-title" style="display:inline-block;" >
+					Dr. Robot
+				</h3>
+				<a href="https://github.com/gurubagawan/BrainStation-Final-Project-">
+					<i class="fab fa-github hover-icons material-icons project-icon" ></i>
+				</a>
+				<hr class="hr-project" ></hr>
+			</div>
+			<div>
+				<p class="project-description">
+          I used API Medic to create an app that as able to diagnose the user based on the experiences they submitted as they went through the app.
+					<br >
+				</p>
+				<h4> Learning Points </h4>
+				<p>	This was my first experience in designing and building an entire app from the ground up. It was really a big challenge, but it was a really great learning experince for me.
+          </p>
+				<div class="frameworks">
+					<h4> Framworks Used </h4>
+					<b> ExpressJS, NodeJS, ReactJS
+					</b>
+				</div>
+      </div>
+		</div>
+      <div class="project-item">
+          <div class="project-head">
+            <h3 class="project-title" style="display: inline-block;">
+              Mastermind
+            </h3>
+            <a href="https://github.com/gurubagawan/mastermindgame">
+              <i class="fab fa-github hover-icons material-icons project-icon" ></i>
+            </a>
+            <a href="https://mastermind-game.herokuapp.com/">
+						<i class="hover-icons material-icons project-icon">computer</i>
+					</a>
+            <hr class="hr-project" ></hr>
+          </div>
+          <div>
+            <p class="project-description">
+              A skill based game in which the user must guess a random sequence of colors based on limited feedback. Try it out, it's pretty hard!
+              <br >
+            </p>
+            <h4> Learning Points </h4>
+            <p>The most challenging and fun part of this app was getting the logic sequence for the answer review right. It really helped solidify my knowledge of loops and conditionals.
+            </p>
+            <div class="frameworks">
+              <h4> Framworks Used </h4>
+              <b> ReactJS
+              </b>
+            </div>
+          </div>
+        </div>
+        <div class="project-item">
+            <div class="project-head">
+              <h3 class="project-title" style="display: inline-block;">
+                Contacts App
+              </h3>
+              <a href="https://github.com/gurubagawan/Contacts-app">
+                <i class="fab fa-github hover-icons material-icons project-icon" ></i>
+              </a>
+              <a href="https://guru-contacts-app.herokuapp.com/">
+						<i class="hover-icons material-icons project-icon">computer</i>
+					</a>
+              <hr class="hr-project" ></hr>
+            </div>
+            <div>
+              <p class="project-description">
+                A contact up built with Material UI, that stores contacts by user on a Database. There is a populated user under guru@email.com/password.
+                <br >
+              </p>
+              <h4> Learning Points </h4>
+              <p>
+                The GUI for this app was relatively straight forward for me to put together, however the app provided me with the perfect opportunity to learn Firebase integration.
+              </p>
+              <div class="frameworks">
+                <h4> Framworks Used </h4>
+                <b> ReactJS, NodeJS, Firebase
+                </b>
+              </div>
+            </div>
+          </div>
+
 </div>
 
 </body>

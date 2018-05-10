@@ -1,3 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none !important;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: 100%;
+}
+
 .profile-photo {
 	height: 150px;
 	width: 150px;
