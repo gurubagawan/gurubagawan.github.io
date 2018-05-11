@@ -72,6 +72,7 @@ body {
 	display: block;
 	margin: auto;
 	vertical-align: middle;
+	z-index: -1;
 }
 
 .icon {
@@ -144,7 +145,8 @@ body {
 	display: inline;
 	margin: auto;
 	margin-top: 25%;
-	margin-left: 20%;
+	left: 50%;
+	transform: translateX(-50%);
 	text-align: center;
 	color: #1c1c38;
 	transition-delay: 0.15s;
@@ -167,14 +169,6 @@ body {
 	opacity: 0.75;
 	position: absolute;
 	transition: 0.3s ease-out;
-}
-
-.experience {
-	margin-left: 22% !important;
-}
-
-.about {
-	margin-left: 24% !important;
 }
 
 .dontshowme {
