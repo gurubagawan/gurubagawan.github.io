@@ -144,8 +144,8 @@ body {
 	position: absolute;
 	display: inline;
 	margin: auto;
-	margin-top: 25%;
 	left: 50%;
+	top: 45%;
 	transform: translateX(-50%);
 	text-align: center;
 	color: #1c1c38;
