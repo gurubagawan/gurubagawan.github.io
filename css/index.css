@@ -157,6 +157,7 @@ body {
 
 .alwaysshowme:hover .lighten {
 	margin-top: 0%;
+	opacity: 0.75;
 }
 
 .lighten {
@@ -165,8 +166,8 @@ body {
 	height: 100%;
 	width: 110%;
 	background-color: white;
+	opacity: 0;
 	display: inline;
-	opacity: 0.75;
 	position: absolute;
 	transition: 0.3s ease-out;
 }
