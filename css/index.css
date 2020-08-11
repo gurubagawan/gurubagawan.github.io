@@ -53,8 +53,7 @@ body {
 }
 
 .main-square {
-  height: 100%;
-  width: 48%;
+  height: auto;
   margin: auto;
 }
 
@@ -97,7 +96,6 @@ body {
 }
 
 .row {
-  height: 45%;
   margin-bottom: 20px;
 }
 
