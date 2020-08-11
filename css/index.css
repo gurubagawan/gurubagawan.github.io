@@ -66,6 +66,7 @@ body {
 }
 
 .square-icon {
+  margin-bottom: 10% !important;
   margin-top: 10% !important;
   width: 70%;
   display: block;
