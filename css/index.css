@@ -54,7 +54,9 @@ body {
 
 .main-square {
   height: auto;
-  margin: auto;
+  margin-top: 15px;
+  overflow: hidden;
+  /* margin: auto; */
 }
 
 .nav-text {
@@ -88,7 +90,7 @@ body {
 }
 
 .nav-bar {
-  height: 10%;
+  /* height: 10%; */
 }
 
 .items {
@@ -105,9 +107,7 @@ body {
 }
 
 .main-page {
-  margin: auto;
-  height: 100% !important;
-  width: 50% !important;
+  /* margin: auto; */
   color: black;
   overflow: hidden;
 }
